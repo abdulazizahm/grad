@@ -1,0 +1,52 @@
+#show
+{
+	margin-left:10%;
+	font-size:45px;
+	font-weight:bold;
+	color:blue;
+	font-family:tahoma;
+	margin-top:1%;
+	display:block;
+}
+.con
+{
+	direction:rtl;
+	text-align:right;
+}
+.bttn
+{
+	width:auto;
+	font-size:20px;
+	margin-bottom:15px;
+}
+.date
+{
+	width:auto;
+	direction:rtl;
+	font-size:25px;
+	height:auto;
+}
+.area
+{
+	font-size:22px;
+	height:auto;
+}
+.area option
+{
+	font-size:20px;
+}
+.a
+{
+	color:blue;
+	text-decoration:none;
+	font-weight:bolder;
+}
+.a:mouseover
+{
+	color:red;
+}
+.bs
+{
+	font-size:16px;
+	font-weight:bold;
+}

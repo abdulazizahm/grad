@@ -1,0 +1,193 @@
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+
+nav{
+    color: white;
+    right: 0;
+}
+.logout,.notif{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-weight: bold;
+}
+.notif{
+    left: 160px;
+}
+.logout:hover,.notif:hover{
+    color: white;
+    text-decoration: none;
+}
+header{
+    color: white;
+}
+.w3-button{
+    float: right;
+}
+.w3-bar-item{
+    margin-left: 50px;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: RGB(60, 141 , 188);
+    z-index: 8888;
+}
+
+.element span{
+    margin-top: 60px;
+    float: right;
+    margin-right: 20px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.element span img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+.element a{
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+    margin:auto;
+    padding-right: 20px;
+    
+}
+.element .active{
+    background-color: RGB(26, 34 , 38);
+     padding-left: 100%;
+}
+.element a:hover{
+    color: white;
+    background-color: RGB(26, 34 , 38);
+    text-decoration: none;
+    padding-left: 100%;
+    
+}
+.row h2{
+    margin-right: 55%;
+    direction: rtl;
+    padding-bottom: 50px;
+}
+.user,.compl,.inv{
+    width:90%;
+    height: 150px;
+    background-color: RGB(0, 192 , 239);
+    margin: auto;
+    border-radius: 20px;
+    
+}
+.compl{
+    background-color:RGB(0, 166 , 90);
+}
+.inv{
+    background-color:RGB(243, 156 , 18);
+}
+.font{
+    width: 50%;
+    float: left;
+}
+.font i{
+    color: white;
+    font-size: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.cont{
+    color: white;
+     width: 50%;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.cont span{
+    font-size:60px;
+}
+form label{
+    font-size: 25px;
+}
+input[type=text],input[type=submit], select,option{
+    direction: rtl;
+    font-size: 22px;
+    height: 45px;
+
+}
+
+.alert{
+    text-align: center;
+    font-size: 20px;
+}
+.search{
+    height: 45px;
+}
+table,table th{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+@media only screen and (min-width: 1300px){
+    .user,.compl,.inv{
+        margin-left: 70px;
+        }
+    input[type=text],input[type=submit], select,option{
+        margin-left: 30px;
+    }
+    
+    .alert{
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    
+    table,table th{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+table .suc{
+    font-size: 20px;
+    font-weight: bold;
+}
+    
+
+}
+@media only screen and (max-width: 990px) {
+  .navbar {
+   display: none;
+  }
+  .row h2{
+     margin-top: 100px;
+    text-align: center;
+    margin-right: 0;
+}
+    .hide{
+        display: none;
+    }
+    .user,.compl,.inv{
+        margin-bottom: 20px;
+    }
+   
+    form label{
+         float: right;
+}
+    table{
+        margin: auto;
+    }
+    table,table th{
+    font-size: 15px;
+    font-weight: bold;
+}
+table .suc{
+    font-size: 12px;
+    font-weight: bold;
+}
+}

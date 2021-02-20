@@ -1,0 +1,367 @@
+/*      Start Framework      */
+
+body
+{
+    font-family: 'Tajawal', sans-serif;
+}
+
+.overlay
+{
+    background-color: rgba(0, 0, 0,0.6);
+}
+
+
+/*      Start index.php      */
+
+.index
+{
+    background-image: url(../images/back1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.index .reglog
+{
+    margin-top: 100px;
+}
+
+.index .reglog a
+{
+    max-width: 250px;
+    max-height: 65px;
+    background: transparent;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    transition: all 0.7s;
+    line-height: 300%;
+    border-width: 2px;
+}
+
+
+.index .reglog a.reg:hover
+{
+    background: #4caf50;
+}
+
+.index .reglog a.log:hover
+{
+    background: rgb(54, 117, 164);
+}
+
+.index .reglog a.logout:hover
+{
+    background: rgb(179, 30, 30);
+}
+
+.index .services
+{
+    margin-top: 50px;
+}
+
+.index .services .logo
+{
+    max-width: 200px;
+    height: 200px;
+}
+
+.index .services .logo img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 45px;
+}
+
+.index .services .serv
+{
+    width: 70%;
+    border: 1px solid #a58b8b;
+    border-radius: 5px;
+    padding: 20px 10px;
+    transition: all 0.7s;
+}
+
+/**************/
+
+.index .services .serv:hover
+{
+    border: 1px solid gold;
+    border-radius: 15px;
+    padding: 10px
+}
+
+.index .services .serv:hover ul li
+{
+    color: gold
+}
+
+/*************/
+
+.index .services a
+{
+    color: white;
+}
+
+.index .services a.homepage
+{
+    margin: 15px 0;
+    font-size: 20px
+}
+
+.index .services .functions ul
+{
+    padding-left: 10px;
+}
+
+.index .services .functions ul li
+{
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: black
+}
+
+
+/*      End index.php      */
+
+/*      Start Einquire.php , Winquire.php , Ginquire.php , {or inquire.php}   */
+
+.inquire
+{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Einquire
+{
+    background-image: url(../images/back-1.jpg);
+}
+
+.Winquire
+{
+    background-image: url(../images/back-2.jpg);
+}
+
+.Ginquire
+{
+    background-image: url(../images/back-3.jpg);
+}
+
+.inquire .socialid
+{
+    margin-top: 200px;
+}
+
+.inquire .socialid h1
+{
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+
+.inquire .socialid h1, .inquire .socialid p
+{
+    color: white;
+}
+
+.inquire .socialid input[type=number]
+{
+    width: 270px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 60px;
+    margin-bottom: 5px
+}
+
+.inquire .socialid input[type=button]
+{
+    width: 210px;
+    height: 50px;
+    background-color: #2073c8;
+    color: white;
+    border: 1px solid #609ddb;
+    border-radius: 5px;
+    transition: all 0.7s;
+}
+
+.inquire .socialid input[type=submit]:hover
+{
+    background-color: #004fa0;
+}
+
+.inquire .logo img
+{
+    height: 600px
+}
+
+
+/*      End Einquire.php , Winquire.php , Ginquire.php , {or inquire.php}    */
+
+/*      Start login.php     */
+
+div.login
+{
+    background-image: url(../images/back1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.login form, .signup form
+{
+    max-width: 550px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 50px 60px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.login form h2, .signup form h2
+{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    color: #4d4d4d;
+}
+
+.login form label
+{
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 10px
+}
+
+.login form input
+{
+    height: 60px;
+    font-size: 18px;
+    font-family: Raleway-SemiBold;
+}
+
+.login form i
+{
+    float: right;
+    position: relative;
+    bottom: 36px;
+    right: 15px;
+    color: gray;
+    cursor: pointer;
+}
+
+.login form i:hover
+{
+    color: rgb(54, 117, 164);
+}
+
+.login form input[type='submit']
+{
+    max-width: 250px;
+    border-radius: 40px;
+    margin-top: 35px;
+    background-color: #333;
+    color: white;
+    transition: all 0.7s;
+}
+
+.login form input[type='submit']:hover
+{
+    background-color: rgb(54, 117, 164);
+}
+
+
+/*      End login.php       */
+
+
+/*      Start signup.php       */
+
+.signup
+{
+    background-image: url(../images/back1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.signup .overlay
+{
+    height: auto !important;
+}
+
+.signup form h2
+{
+    font-size: 24px
+}
+
+.signup form input:focus, .signup form textarea:focus, .signup form select:focus
+{
+    box-shadow: 0 0 5px rgb(0, 183, 0);
+}
+
+.signup form input[type='submit']
+{
+    max-width: 150px;
+    border-radius: 40px;
+    margin-top: 15px;
+    background-color: #333;
+    color: white;
+    transition: all 0.7s;
+}
+
+.signup form input[type='submit']:hover
+{
+    background-color: #32a532;
+}
+
+
+
+/*      End signup.php       */
+
+
+/*      Start complaints.php       */
+
+.complain
+{
+    background: url('../images/complaints.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.complain form
+{
+    max-width: 650px;
+    margin-top: 50px;
+    background-color: white;
+    padding: 10px 50px 30px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.complain form h1
+{
+    margin-bottom: 40px
+}
+
+.complain form input[type='submit']
+{
+    max-width: 150px;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    transition: all 0.7s;
+    max-height: 50px;
+    font-size: 18px;
+}
+
+.complain form input[type='submit']:hover
+{
+    background-color: red;
+}
+
+
+/*      End complaints.php         */
